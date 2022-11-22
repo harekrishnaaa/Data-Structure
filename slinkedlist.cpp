@@ -1,8 +1,4 @@
-/*
 
- * C++ Program to Implement Singly Linked List
-
- */
 
 #include <iostream>
 
@@ -14,9 +10,9 @@ using namespace std;
 
 /*
 
- * Node Declaration
+* Node Declaration
 
- */
+*/
 
 struct node
 
@@ -28,15 +24,13 @@ struct node
 
 } * start;
 
- 
+/*
 
-    /*
+* Class Declaration
 
-     * Class Declaration
+*/
 
-     */
-
-    class single_llist
+class single_llist
 
 {
 
@@ -68,16 +62,13 @@ public:
         start = NULL;
     }
 };
+/*
 
- 
+  * Main :contains menu
 
-    /*
+  */
 
-     * Main :contains menu
-
-     */
-
-    main()
+main()
 
 {
 
@@ -231,16 +222,14 @@ public:
     }
 }
 
- 
+/*
 
-    /*
+* Creating Node
 
-     * Creating Node
+*/
 
-     */
-
-    node *
-    single_llist::create_node(int value)
+node *
+single_llist::create_node(int value)
 
 {
 
@@ -269,16 +258,13 @@ public:
     }
 }
 
- 
+/*
 
-    /*
+* Inserting element in beginning
 
-     * Inserting element in beginning
+*/
 
-     */
-
-    void
-    single_llist::insert_begin()
+void single_llist::insert_begin()
 
 {
 
@@ -315,16 +301,13 @@ public:
     cout << "Element Inserted at beginning" << endl;
 }
 
- 
+/*
 
-    /*
+* Inserting Node at last
 
-     * Inserting Node at last
+*/
 
-     */
-
-    void
-    single_llist::insert_last()
+void single_llist::insert_last()
 
 {
 
@@ -354,16 +337,13 @@ public:
     cout << "Element Inserted at last" << endl;
 }
 
- 
+/*
 
-    /*
+* Insertion of node at a given position
 
-     * Insertion of node at a given position
+*/
 
-     */
-
-    void
-    single_llist::insert_pos()
+void single_llist::insert_pos()
 
 {
 
@@ -447,16 +427,13 @@ public:
     }
 }
 
- 
+/*
 
-    /*
+* Sorting Link List
 
-     * Sorting Link List
+*/
 
-     */
-
-    void
-    single_llist::sort()
+void single_llist::sort()
 
 {
 
@@ -499,16 +476,13 @@ public:
     }
 }
 
- 
+/*
 
-    /*
+ Delete element at a given position
 
-     * Delete element at a given position
+*/
 
-     */
-
-    void
-    single_llist::delete_pos()
+void single_llist::delete_pos()
 
 {
 
@@ -582,16 +556,13 @@ public:
     }
 }
 
- 
+/*
 
-    /*
+* Update a given Node
 
-     * Update a given Node
+*/
 
-     */
-
-    void
-    single_llist::update()
+void single_llist::update()
 
 {
 
@@ -651,16 +622,13 @@ public:
     cout << "Node Updated" << endl;
 }
 
- 
+/*
 
-    /*
+* Searching an element
 
-     * Searching an element
+*/
 
-     */
-
-    void
-    single_llist::search()
+void single_llist::search()
 
 {
 
@@ -708,16 +676,13 @@ public:
         cout << "Element " << value << " not found in the list" << endl;
 }
 
- 
+/*
 
-    /*
+* Reverse Link List
 
-     * Reverse Link List
+*/
 
-     */
-
-    void
-    single_llist::reverse()
+void single_llist::reverse()
 
 {
 
@@ -765,16 +730,13 @@ public:
     start = ptr2;
 }
 
- 
+/*
 
-    /*
+* Display Elements of a link list
 
-     * Display Elements of a link list
+*/
 
-     */
-
-    void
-    single_llist::display()
+void single_llist::display()
 
 {
 
